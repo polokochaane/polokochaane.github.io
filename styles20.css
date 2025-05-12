@@ -19,10 +19,10 @@ header {
 }
 
 .card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 1rem;
+  overflow-x: auto; /* Adds horizontal scroll for smaller screens */
+  padding: 16px; /* Adds padding around the card */
+  border: 1px solid #ccc; /* Adds border around the card */
+  border-radius: 8px; /* Rounded corners for the card */
 }
 
 h2 {
