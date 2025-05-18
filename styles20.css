@@ -3,17 +3,17 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
-wrapper{
+.wrapper{
   width: 428px;
   background: purple;
   color:white;
   text-align:center;
 }
-wrapper h2{
+.wrapper h2{
   font-size: 36px;
   text-align:center;
 }
-wrapper .input-box{
+.wrapper .input-box{
   width:50px;
   height:50px;
   
@@ -41,7 +41,7 @@ wrapper .input-box{
 }
   
 
-input-box input::placeholder{
+.input-box input::placeholder{
   color:white;
 }
 .input-box i{
