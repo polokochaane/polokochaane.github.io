@@ -3,6 +3,41 @@ body {
   margin: 0;
   background-color: #f4f4f4;
 }
+wrapper{
+  width: 428px;
+  background: purple;
+  color:white;
+}
+wrapper h2{
+  font-size: 36px;
+  text-align:center;
+}
+wrapper .input-box{
+  width:100%;
+  height:50px;
+  
+  margin:30px 0;
+}
+.input-box input{
+  width:100%;
+  height:100%;
+  background:transparent;
+  border:none;
+  outline:none;
+  border: 2px solid(255,255,255,2);
+  border-radius:40px;
+  padding:20px 45px 20px 20px;
+  
+}
+
+input-box input::placeholder{
+  color:white;
+}
+.input-box i{
+  position:absolute;
+  right:20px;
+}
+  
 
 header {
   background-color: #007BFF;
